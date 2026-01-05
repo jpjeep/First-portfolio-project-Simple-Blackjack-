@@ -1,6 +1,4 @@
 from hand import Hand
-#only hold state
-#like the hand and money available
 class Player:
     balance  = 1000
     def __init__(self, name, bet, hand):
