@@ -2,7 +2,6 @@ from card import Card
 class Hand(Card):
     def __init__(self, cards):
         self.cards = cards
-    #NEED TO EDIT ACE VALUES    
     def total(self):
         total = 0
         aces = 0
@@ -21,7 +20,6 @@ class Hand(Card):
             return True
         else:
             return False
-        # if black jack you automatically win 2x of bet
     def is_bust(self):
         if self.total() > 21:
             return True
